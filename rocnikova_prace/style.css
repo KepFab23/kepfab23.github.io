@@ -15,7 +15,6 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border: 1px solid white;
     width: 100%;
     height: 120px;
 }
@@ -32,7 +31,6 @@ nav{
         align-items: center;
         width: 50%;
         height: 120px;
-        border: 1px solid white;
     }
         .nav_stranky a{
             text-decoration: none;
@@ -44,10 +42,17 @@ nav{
             transform: translateX();
         }
 
-.nadpis{
+.d_nadpis{
     border: 1px solid white;
     color: white;
-    width: 600px;
-    height: 200px;
+    width: 90%;
+    height: 30%;
     text-align: center;
+    margin: 150px;
 }
+    .p_nadpis{
+        font-size: 60px;
+    }
+    .p_podnadpis{
+        font-size: 40px;
+    }
