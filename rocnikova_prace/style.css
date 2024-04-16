@@ -16,40 +16,58 @@ nav{
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
-    height: 120px;
+    height: 100px;
 }
     .nav_logo{
-        width: 120px;
+        width: 100px;
         height: 100%;
     }
         .logo{
-            width: 120px;
+            width: 100px;
         }
     .nav_stranky{
         display: flex;
         justify-content: space-evenly;
         align-items: center;
         width: 50%;
-        height: 120px;
+        height: 100px;
     }
         .nav_stranky a{
             text-decoration: none;
             color: white;
-            font-size: 25px;
+            font-size: 25px
+        }
+        .nav_stranky div{
+            width: 20%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
         }
         .nav_stranky a:hover{
             text-decoration: underline;
-            transform: translateX();
+            font-size: 35px;
+            transition: 0.4s;
         }
 
-.d_nadpis{
-    border: 1px solid white;
-    color: white;
-    width: 90%;
-    height: 30%;
-    text-align: center;
-    margin: 150px;
+header{
+    width: 100%;
+    height: 720px;
+    background-image: url(obrazky/MIX_5.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+    .d_nadpis{
+        color: white;
+        width: 90%;
+        height: 30%;
+        text-align: center;
+    }
     .p_nadpis{
         font-size: 60px;
     }
