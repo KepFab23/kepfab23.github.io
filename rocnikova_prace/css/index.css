@@ -60,3 +60,28 @@ nav{
     .index_podnadpis{
         font-size: 40px;
     }
+
+.index_obsah{
+    width: 100%;
+    height: 1080px;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(0.50turn, #000000, #6A6F71, #000000)
+}
+
+    .index_technika{
+        width: 90%;
+        height: 80%;
+        border: 2px solid red;
+    }
+
+        .index_technika_mixak{
+            width: 30%;
+            height: auto;
+        }
