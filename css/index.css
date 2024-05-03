@@ -80,7 +80,7 @@ nav{
         height: 200px;
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly
+        justify-content: space-evenly;
     }
 
         .index_technika_mixak{
@@ -111,7 +111,7 @@ nav{
         width: 90%;
         height: 600px;
         display: flex;
-        justify-content: space-evenly
+        justify-content: space-evenly;
     }
 
         .index_technika_mixak_txt{
@@ -140,3 +140,27 @@ nav{
             .streamdeck_popis{
                 font-size: 20px;
             }
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: white;
+}
+
+    .footer_ig{
+        width: 120px;
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+        img{
+            width: 80px;
+        }
+
+        img:hover{
+            width: 120px;
+            transition: 0.4s;
+        }
