@@ -1,6 +1,6 @@
 @font-face{
     font-family: "Balo"; /*Zde stanovuje název fontu */
-    src: url(../rocnikova_prace/fonty/BalooBhaijaan-Regular.ttf);
+    src: url(fonty/BalooBhaijaan-Regular.ttf);
 }
 body{
     font-family: Balo;
@@ -49,3 +49,35 @@ nav{
             font-size: 35px;
             transition: 0.4s;
         }
+
+footer{
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+        
+    .footer_ig{
+        width: 80px;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(obrazky/ig.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+        
+        .footer_ig:hover{
+            width: 120px;
+            height: 120px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: 0.4s;
+            background-image: url(obrazky/ig_modra.png);
+            background-repeat: no-repeat;
+        }
+        
