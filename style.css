@@ -1,3 +1,9 @@
+/* 
+nadpis=60px
+podnadpis=40px
+text=20px
+*/
+
 @font-face{
     font-family: "Balo"; /*Zde stanovuje název fontu */
     src: url(fonty/BalooBhaijaan-Regular.ttf);
@@ -65,7 +71,7 @@ footer{
         display: flex;
         justify-content: center;
         align-items: center;
-        background-image: url(obrazky/ig.png);
+        background-image: url(../obrazky/ig.png);
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -77,7 +83,7 @@ footer{
             justify-content: center;
             align-items: center;
             transition: 0.4s;
-            background-image: url(obrazky/ig_modra.png);
+            background-image: url(../obrazky/ig_modra.png);
             background-repeat: no-repeat;
         }
         
