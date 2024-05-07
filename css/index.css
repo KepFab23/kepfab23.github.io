@@ -10,7 +10,6 @@
 }
 
     .div_index_nadpis{
-        color: white;
         width: 90%;
         height: 30%;
         text-align: center;
@@ -25,7 +24,6 @@
 .index_obsah{
     width: 100%;
     height: 800px;
-    color: white;
     font-size: 60px;
     text-align: center;
     display: flex;
