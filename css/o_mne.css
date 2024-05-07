@@ -61,29 +61,34 @@
 }
 
     .o_mne_obsah_border{
-        width: 90%;
-        height: 80%;
+        width: 80%;
+        height: 60%;
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
-
+        text-align: center;
         border: 2px solid white;
         border-radius: 50px;
     }
 
         .o_mne_obsah_txt{
             width: 45%;
-            height: 80%;
+            height: 200px;
             color: white;
             font-size: 20px;
-            text-align: center;
+            margin-top: 300px;
+            margin-bottom: 300px;
         }
 
         .o_mne_obsah_img{
-            width: 35%;
-            height: 80%;
-            background-image: url(../obrazky/foto_o_mne_text2.png);
-            background-repeat: no-repeat;
-            background-size: 100%;
+            width: 45%;
+            height: 400px;
+            margin-top: 300px;
+            margin-bottom: 300px;
+        }
+        
+        .o_mne_obsah_img img{
+            width: 45%px;
+            height: 400px;
         }

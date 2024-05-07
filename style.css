@@ -63,6 +63,7 @@ footer{
     justify-content: center;
     align-items: center;
     color: white;
+    z-index: 5s;
 }
         
     .footer_ig{
@@ -71,7 +72,7 @@ footer{
         display: flex;
         justify-content: center;
         align-items: center;
-        background-image: url(../obrazky/ig.png);
+        background-image: url(obrazky/ig.png);
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -83,7 +84,7 @@ footer{
             justify-content: center;
             align-items: center;
             transition: 0.4s;
-            background-image: url(../obrazky/ig_modra.png);
+            background-image: url(obrazky/ig_modra.png);
             background-repeat: no-repeat;
         }
         
