@@ -54,6 +54,25 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    flex-direction: row;
 
     background: linear-gradient(0.50turn, #000000, #6A6F71, #000000)
 }
+
+    .sluzby_obsah_dj{
+        font-size: 60px;
+        text-align: center;
+        width: 45%;
+        height: 500px;
+        border: 2px solid white;
+        border-radius: 50px;
+    }
+
+    .sluzby_obsah_grafika{
+        font-size: 60px;
+        text-align: center;
+        width: 45%;
+        height: 500px;
+        border: 2px solid white;
+        border-radius: 50px;
+    }
