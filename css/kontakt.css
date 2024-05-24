@@ -5,31 +5,41 @@
     background-size: 100%;
     background-repeat: no-repeat;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+    text-align: center;
+    }
 
-    .header_div{
+    .header_kontakt_div{
+        width: 80%;
+        height: 800px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-        .kontakt_nadpis{
+        .header_kontakt_txt{
+            width: 500px;
+            height: 200px;
             font-size: 60px;
             text-align: center;
         }
 
-        .kontakt_ig{
-            width: 400px;
-            height: auto;
+        .header_kontakt_ig{
+            width: 500px;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
 
-        .kontakt_mail{
-        width: 500px;
-        height: auto;
+        .header_kontakt_mail{
+            width: 800px;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
 
 .kontakt_obsah{
@@ -42,3 +52,103 @@
 
     background: linear-gradient(0.50turn, #000000, #6A6F71, #000000)
 }
+
+    .kontakt_obsah_border{
+        width: 60%;
+        height: 650px;
+        border: 2px solid white;
+        border-radius: 50px;
+    }
+
+        .formular_nadpis{
+            font-size: 60px;
+            text-align: center;
+        }
+
+        form{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+            label{
+                font-size: 20px;
+            }
+
+            input{
+                width: 400px;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: none;
+                border-radius: 10px;
+                font-size: 15px;
+                font-family: Balo;
+                text-align: center;
+            }
+
+            textarea{
+                width: 400px;
+                height: 80px;
+                border: none;
+                border-radius: 10px;
+                font-size: 15px;
+                font-family: Balo;
+                text-align: center;
+            }
+
+            .prace_data{
+                width: 400px;
+                height: 40px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+            }
+
+                .odeslat_data{
+                    width: 150px;
+                    height: 40px;
+                    border: 2px solid white;
+                    border-radius: 10px;
+                    background: none;
+                    color: white;
+                    font-size: 20px;
+                    font-family: Balo;
+                }
+
+                    .odeslat_data:hover{
+                        width: 150px;
+                        height: 40px;
+                        border: 2px solid white;
+                        border-radius: 10px;
+                        background: white;
+                        color: black;
+                        font-size: 20px;
+                        font-family: Balo;
+                        transition: 0.6s;
+                    }
+
+                .reset_dat{
+                    width: 150px;
+                    height: 40px;
+                    border: 2px solid white;
+                    border-radius: 10px;
+                    background: none;
+                    color: white;
+                    font-size: 20px;
+                    font-family: Balo;
+                }
+
+                    .reset_dat:hover{
+                        width: 150px;
+                        height: 40px;
+                        border: 2px solid white;
+                        border-radius: 10px;
+                        background: white;
+                        color: black;
+                        font-size: 20px;
+                        font-family: Balo;
+                        transition: 0.6s;
+                    }
