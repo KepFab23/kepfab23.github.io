@@ -89,6 +89,11 @@
                 text-align: center;
             }
 
+                input:hover{
+                    background-color: rgba(0, 0, 0, 50%);
+                    color: white;
+                }
+
             textarea{
                 width: 400px;
                 height: 80px;
@@ -98,6 +103,11 @@
                 font-family: Balo;
                 text-align: center;
             }
+
+                textarea:hover{
+                    background-color: rgba(0, 0, 0, 50%);
+                    color: white;
+                }
 
             .prace_data{
                 width: 400px;
