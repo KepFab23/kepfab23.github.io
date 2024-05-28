@@ -42,6 +42,7 @@ nav{
         .nav_stranky a{
             color: white;
             text-decoration: none;
+            transition: 0.4s;
             font-size: 25px
         }
         .nav_stranky div{
@@ -78,6 +79,7 @@ footer{
         .livebros img{
             width: auto;
             height: 80px;
+            transition: 0.4s;
         }
 
         .img_lb:hover{
@@ -103,6 +105,7 @@ footer{
             display: flex;
             justify-content: center;
             align-items: center;
+            transition: 0.4s;
         }
         
             .footer_ig img:hover{
@@ -125,6 +128,7 @@ footer{
             .optima img{
                 width: auto;
                 height: 80px;
+                transition: 0.4s;
             }
 
             .img_op:hover{

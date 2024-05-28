@@ -29,10 +29,12 @@
 
         .akce_loga_turnaje img{
             width: 80%;
+            transition: 0.4s;
         }
 
             .akce_loga_turnaje img:hover{
-                background-color: rgba(0, 0, 0, 60%);
+                transition: 0.4s;
+                background-color: rgba(0, 0, 0, 80%);
                 border-radius: 50px;
             }
 
