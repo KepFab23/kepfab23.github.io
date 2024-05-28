@@ -18,35 +18,35 @@
         flex-direction: column;
     }
     
-    .div_sluzby_nadpis{
-        width: 90%;
-        height: 30%;
-        text-align: center;
-    }
+        .div_sluzby_nadpis{
+            width: 90%;
+            height: 30%;
+            text-align: center;
+        }
     
-    .p_sluzby_nadpis{
-        font-size: 60px;
-    }
+            .p_sluzby_nadpis{
+                font-size: 60px;
+            }
     
-    .div_sluzby{
-        width: 90%;
-        height: 60%;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
+        .div_sluzby{
+            width: 90%;
+            height: 60%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+                .text_nabidka{
+                    width: 100%;
+                    height: 30%;
+                    font-size: 24px;
+                    padding-right: 15px;
+                }
     
-    .img_sluzby_foto{
-        width: 450px;
-        padding-left: 15px;
-    }
-        
-    .text_nabidka{
-        width: 100%;
-        height: 30%;
-        font-size: 24px;
-        padding-right: 15px;
-    }
+            .sluzby_foto img{
+                width: 450px;
+                padding-left: 15px;
+            }
 
 .sluzby_obsah{
     width: 100%;

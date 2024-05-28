@@ -18,35 +18,35 @@
         flex-direction: column;
     }
 
-    .div_o_mne_nadpis{
-        width: 90%;
-        height: 30%;
-        text-align: center;
-    }
+        .div_o_mne_nadpis{
+            width: 90%;
+            height: 30%;
+            text-align: center;
+        }
 
-    .p_o_mne_nadpis{
-        font-size: 60px;
-    }
+            .p_o_mne_nadpis{
+                font-size: 60px;
+            }
 
-    .div_o_mne{
-        width: 90%;
-        height: 60%;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
+        .div_o_mne{
+            width: 90%;
+            height: 60%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
 
-    .img_o_mne_foto{
-        width: 350px;
-        padding-right: 15px;
-    }
+                .img_o_mne_foto{
+                    width: 350px;
+                    padding-right: 15px;
+                }
     
-    .o_mne_text{
-        width: 60%;
-        height: 30%;
-        font-size: 20px;
-        padding-left: 15px;
-    }
+            .o_mne_text{
+                width: 60%;
+                height: 30%;
+                font-size: 20px;
+                padding-left: 15px;
+            }
 
 .o_mne_obsah{
     width: 100%;
