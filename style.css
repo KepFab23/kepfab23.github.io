@@ -97,26 +97,21 @@ footer{
         align-items: center;
     }
 
-        .footer_ig{
-            width: 80px;
-            height: 80px;
+        .footer_ig img{
+            width: 90px;
+            height: 89px;
             display: flex;
             justify-content: center;
             align-items: center;
-            background-image: url(obrazky/ig.png);
-            background-repeat: no-repeat;
-            background-size: cover;
         }
         
-            .footer_ig:hover{
+            .footer_ig img:hover{
                 width: 120px;
                 height: 120px;
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 transition: 0.4s;
-                background-image: url(obrazky/ig_modra.png);
-                background-repeat: no-repeat;
             }
         
         .optima{
