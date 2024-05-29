@@ -87,11 +87,13 @@
                 font-size: 15px;
                 font-family: Balo;
                 text-align: center;
+                transition: 0.6s;
             }
 
                 input:hover{
                     background-color: rgba(0, 0, 0, 50%);
                     color: white;
+                    transition: 0.6s;
                 }
 
             textarea{
@@ -102,11 +104,13 @@
                 font-size: 15px;
                 font-family: Balo;
                 text-align: center;
+                transition: 0.6s;
             }
 
                 textarea:hover{
                     background-color: rgba(0, 0, 0, 50%);
                     color: white;
+                    transition: 0.6s;
                 }
 
             .prace_data{
@@ -126,6 +130,7 @@
                     color: white;
                     font-size: 20px;
                     font-family: Balo;
+                    transition: 0.6s;
                 }
 
                     .odeslat_data:hover{
@@ -149,6 +154,7 @@
                     color: white;
                     font-size: 20px;
                     font-family: Balo;
+                    transition: 0.6s;
                 }
 
                     .reset_dat:hover{

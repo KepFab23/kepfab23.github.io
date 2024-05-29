@@ -86,12 +86,14 @@
         }
 
             .akce_obsah_op_logo img{
-                width: 800px
+                width: 800px;
+                transition: 0.4s
             }
 
                 .akce_obsah_op_logo img:hover{
-                    background-color: rgba(0, 0, 0, 50%);
+                    background-color: rgba(0, 0, 0, 80%);
                     border-radius: 50px;
+                    transition: 0.4s;
                 }
   
         .akce_obsah_op_txt{
@@ -132,12 +134,15 @@
         }
 
             .akce_obsah_lb_logo img{
-                width: 800px
+                width: 800px;
+                transition: 0.4s;
+                
             }
 
                 .akce_obsah_lb_logo img:hover{
-                    background-color: rgba(0, 0, 0, 50%);
+                    background-color: rgba(0, 0, 0, 80%);
                     border-radius: 50px;
+                    transition: 0.4s;
                 }
         
         .akce_obsah_lb_txt{
